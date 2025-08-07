@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.overall{
+    width: 100%;
+    height: 520px;
+    background-color: #f2f4f7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.overall img{
+    width: 240px;
+    height: 80px;
+}
+div.box{
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 2px 4px #0000001a, 0 8px 16px #0000001a;
+    padding: 0px 0px 14px;
+}
+.login{
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.write{
+    height: 30px;
+    width: 100%;
+    padding: 24px 0px 16px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.another{
+    
+    height: 220px;
+    width: 100%;
+}
+
+.input1{
+    width: 90%;
+    height: 40px;
+    margin: 6px 16px;
+    margin-right: 20px;
+    padding-bottom: 15px;
+}
+.oneinput{
+    border: 0.2px solid #d5d7d8;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    padding: 4px 6px;
+    border-radius: 5px;
+}
+
+div.button{
+    width: 93%;
+    height: 50px;
+    margin: 6px 16px;
+    margin-right: 20px;
+
+}
+button{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    background-color: #1877f2;
+    border: #1877f2;
+    border-radius: 8px;
+    height: 100%;
+    width: 100%;
+}
+div.input2{
+    width: 90%;
+    height: 40px;
+    margin: 6px 16px;
+    margin-right: 20px;
+    padding-top: 10px;
+    text-align: center;
+}
+.last{
+    text-decoration: none;
+    font-size: 16px;
+    padding-left: 5px;
+    color: #1877f2;
+}
+.last:hover{
+    text-decoration: underline;
+}
+@media(max-width:400px){
+    div.box{
+        width: 300px;
+    }
+    .input1{
+        width: 85%;
+    }
+    div.button{
+        width: 90%;
+    }
+    div.input2{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5px;
+        row-gap: 2px;
+    }
+}
